@@ -1,0 +1,160 @@
+/*L'ENTETE DE MON CV*/
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'poppins', sans-serif;
+}
+/*LE FOND BLEU DERIEUR MON CV */
+body{
+	background-color:lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+/*MISE EN PAGE DU COTE BLAND DE MON CV*/
+.container
+{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: #fff;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+/*MISE EN PAGE DU COTE BLEU DE MON CV*/
+.container .left_side
+{
+	position: relative;
+	background: #003147;
+	padding: 40px;
+}
+/*CADRE DE LA PHOTO*/
+.profiltext .imgBx
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 70%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	transform: translate(15%,0%);
+}
+
+/*EMPLACEMENT DE LA PHOTO*/
+.profiltext .imgBx img
+{
+	position: relative;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/*MISE EN PAGE DU NOM ET MATRICULE */
+.profiltext h2
+{
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+/*MISE EN PAGE DE LA PROMOTION */
+.profiltext h2 span
+{
+	font-size: 0.8em;
+	font-weight: 300;
+}
+/*
+.Mes contacts
+{
+	padding-top: 40px;
+}
+*/
+/*MISE EN PAGE DU MES CONTACTS ET LANGUES */
+.title
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+/*MISE EN PAGE DE LA PROMOTION 
+ul
+{
+	position: relative;
+}
+*/
+/*MISE EN PAGE DES CONTENUES (MES CONTACTS, LANGUES ET CENTRES D'INTERET*/
+ul li
+{
+	position: relative;
+	list-style: none;
+	margin: 15px 0;
+	cursor: pointer;
+}
+/*AGRANDIRE LES ICON ET LE FOND BLEU DES ICON*/
+ul li .icon
+{
+	display: inline-block;
+	width: 30px;
+	font-size: 20px;
+	color: lightblue;
+}
+/*LE FOND BLAND DES CONTENUES DE MES CONTACTS ET LANGUES*/
+ul li span
+{
+	color: #fff;
+}
+/*FOND NOIR ARRIER PLAN DE CONTENU DU LANGUE*/
+.percent
+{
+	position: relative;
+	width: 100%;
+	height: 6px;
+	background: black;
+	display: block;
+	margin-top: 5px;
+}
+/*FOND BLEU AVANT PLAN DE CONTENU DU LANGUE*/
+.percent div 
+{
+	position:;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9f4;
+
+}
+/*MISE EN PAGE DU COTE BLAND DE MON CV*/
+.container .right_side
+{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+/*MISE EN PAGE DES GRAND TITRE DU COTE BLAND DE MON CV*/
+.apropos h2
+{
+	color: #003147;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+/*COULEUR NOIR DES ECRIS DU COTE BLAND DE MON CV*/
+.texte
+{
+	color: black;
+}
